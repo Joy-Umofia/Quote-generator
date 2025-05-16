@@ -1,7 +1,10 @@
-const selfDevelopmentQuotes = {
+export const allQuote = {
   selfDevelopment:[
-    "The only person you are destined to become is the person you decide to be. – Ralph Waldo Emerson",
-  "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
+    {words:"The only person you are destined to become is the person you decide to be", author: "Ralph Waldo Emerson"},
+    {words:"Success is not final, failure is not fatal: It is the courage to continue that counts.",author: "Winston Churchill"},
+    {words:"The only person you are destined to become is the person you decide to be", author: "Ralph Waldo Emerson"},
+    {words:"The only person you are destined to become is the person you decide to be", author: "Ralph Waldo Emerson"},
+  
   "What you do today can improve all your tomorrows. – Ralph Marston",
   "Strive not to be a success, but rather to be of value. – Albert Einstein",
   "Don’t wish it were easier. Wish you were better. – Jim Rohn",
