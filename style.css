@@ -44,13 +44,21 @@ body{
   border: 1px solid grey;
   padding: 0.5rem 1.2rem;
   background-color: #FDF9EE;
+  transition: all 0.5s;
 }
+.q:hover{
+  filter: brightness(90%)
+}
+.q:active{
+  transform: scale(0.95);
+}
+
 .top-section{
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  row-gap: 0.5rem;
+  row-gap: 1rem;
   padding: 1rem 1.5rem;
 }
 
@@ -84,7 +92,7 @@ body{
 .button-container{
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
 }
 
@@ -118,12 +126,16 @@ a:hover{
  align-items: center;
 }
 
+
 @media screen and (max-width: 1000px){
   .quotes{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   section{
     margin: auto 10px;
+  }
+  .body{
+    padding: 0px 20px;
   }
 }
