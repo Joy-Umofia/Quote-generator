@@ -9,6 +9,7 @@ body{
   flex-direction: column;
   row-gap: 1.5rem;
   background-color: #FEFAEF;
+  height: 100vh;
 }
 .body{
   margin: 0;
@@ -128,14 +129,28 @@ a:hover{
 
 
 @media screen and (max-width: 1000px){
+  body{
+    row-gap: none;
+  }
   .quotes{
     font-size: 2rem;
   }
 
   section{
-    margin: auto 10px;
+    margin: 60px 10px;
   }
   .body{
-    padding: 0px 20px;
+    padding:7px 20px;
+    
+  }
+  .q{
+    font-size: 0.8rem;
+  }
+  .top-section{
+    row-gap: 0.6rem;
+    padding: 0rem 1.5rem;
+  }
+  a{
+    font-size: 0.8rem;
   }
 }
